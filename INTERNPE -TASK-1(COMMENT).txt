@@ -1,0 +1,21 @@
+INTERNPE -JAVA Programming 8.6 (VIP)
+             BAtch 8.6 (31-jul)
+
+Task 2: Create an executable comment 
+
+PROGRAM :
+
+
+import java.util.*;
+class COMMENT{
+
+	public static void main(String[] args) {
+		// The comment below is magic..
+		// \u000d System.out.println("Geek Comment Executed!");
+	}
+}
+
+
+OUTPUT:  Geek Comment Executed!
+
+RESULT: THE ABOVE PROGRAM IS SUCCESSFULLY EXECUTED.
