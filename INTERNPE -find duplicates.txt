@@ -1,0 +1,32 @@
+INTERNPE -JAVA Programming 8.6 (VIP)
+             BAtch 8.6 (31-jul)
+
+Task 4: Find a single duplicate in an array of integers.
+
+PROGRAM :
+
+import java.util.Set;
+
+	public class findDuplicates{
+	    public static void main(String[] args) {
+	        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 3};
+	        boolean[] visited = new boolean[10]; // assuming the max value is 9
+	        for (int num : arr) {
+	            if (visited[num]) {
+	                System.out.println("The duplicate element is " + num);
+	                break;
+	            }
+	            visited[num] = true;
+	        }
+	    }
+	}
+
+
+
+
+
+OUTPUT :
+
+The duplicate element is 3
+
+RESULT : THE ABOVE PROGRAM HAS SUCCESSFULLY EXECUTED.
