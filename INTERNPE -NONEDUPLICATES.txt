@@ -1,0 +1,30 @@
+INTERNPE -JAVA Programming 8.6 (VIP)
+             BAtch 8.6 (31-jul)
+
+Task 5: Find a non-unique duplicate in an array of integers
+
+PROGRAM :
+         
+public class noneduplicates {
+
+			public static void main(String[] args) {
+
+			    int result =0;
+			    int []arr={3,4,5,3,4,5,6};
+			    for(int i:arr)
+			    {
+			        result ^=i;
+			    }
+
+			    System.out.println("Result is "+result);
+			}
+
+			}
+
+	
+OUTPUT :
+        Result is 6
+
+RESULT : THE ABOVE PROGRAM IS SUCCESSFULLY EXECUTED.
+
+	
